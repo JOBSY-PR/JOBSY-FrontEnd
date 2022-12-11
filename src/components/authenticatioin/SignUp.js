@@ -22,6 +22,7 @@ const SignUp = () => {
         <p>Already have an account? <Link style={{ color: 'black' }} to='/login'>Login</Link></p>
       </FormControl>
     </div>
+    
   )
 }
 

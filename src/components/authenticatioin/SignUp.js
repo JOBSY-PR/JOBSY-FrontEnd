@@ -60,7 +60,8 @@ const SignUp = () => {
                   {values.showPassword ? <VisibilityOff /> : <Visibility/>}
                 </IconButton>
               </InputAdornment>
-            }/>
+            }
+          /> }
           
             <OutlinedInput
             variant='filled' placeholder='confirm '
@@ -80,7 +81,7 @@ const SignUp = () => {
                 </IconButton>
               </InputAdornment>
             }
-          /> }
+          /> 
             <Link style={{margin:'5px'}} to='/home'><Button fullWidth variant='contained'  >SIGN UP</Button></Link>
             <p>Already have an account? <Link style={{color:'black'}} to='/login'>Login</Link></p>
         </FormControl>  
